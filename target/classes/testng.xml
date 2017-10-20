@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Navigator demo tests" verbose="1">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://www.facebook.com/"/>
+    <parameter name="email" value="charrnorris@gmail.com"/>
+    <parameter name="pass" value="luster123"/>
+    <parameter name="firstName" value="Dzanan"/>
+    <parameter name="lastName" value="Gvozden"/>
+    <parameter name="regEmail" value="charrnorris@gmail.com"/>
+    <parameter name="regPass" value="luster123"/>
+
+    <test name="Login test">
+        <classes>
+            <class name="RegisterTest"/>
+        </classes>
+    </test>
+</suite>
