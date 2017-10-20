@@ -13,6 +13,7 @@
     <test name="Login test">
         <classes>
             <class name="RegisterTest"/>
+            <class name="LoginTest"/>
         </classes>
     </test>
 </suite>
