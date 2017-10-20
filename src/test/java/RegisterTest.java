@@ -11,6 +11,7 @@ public class RegisterTest {
 
     private WebDriver driver;
     private LoginPage loginPage;
+    private HomePage homePage;
 
     @BeforeClass
     @Parameters ({"browser", "url"})
@@ -19,6 +20,8 @@ public class RegisterTest {
         driver.get(url);
 
         loginPage = new LoginPage(driver);
+        homePage = new HomePage(driver);
+
     }
 
     @Test
@@ -34,7 +37,7 @@ public class RegisterTest {
         loginPage.selectYear("1985");
         loginPage.selMale();
         loginPage.Register();
-        Assert.assertTrue(loginPage.isOpened());
+        Assert.assertTrue(homePage.hasLanded());
     }
 
     @AfterClass
