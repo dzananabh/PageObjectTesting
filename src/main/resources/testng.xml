@@ -12,8 +12,8 @@
 
     <test name="Login test">
         <classes>
-            <class name="RegisterTest"/>
-            <class name="LoginTest"/>
+            <class name="com.github.navigator.testing.tests.RegisterTest"/>
+            <class name="com.github.navigator.testing.tests.LoginTest"/>
         </classes>
     </test>
 </suite>

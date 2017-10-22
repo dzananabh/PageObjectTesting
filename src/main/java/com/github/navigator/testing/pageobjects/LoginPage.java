@@ -1,6 +1,6 @@
-package PageObjects;
+package com.github.navigator.testing.pageobjects;
 
-import Support.DriverObj;
+import com.github.navigator.testing.support.DriverObj;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

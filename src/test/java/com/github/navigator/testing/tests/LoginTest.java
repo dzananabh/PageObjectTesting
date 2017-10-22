@@ -1,6 +1,9 @@
-import Support.BrowserSupport;
+package com.github.navigator.testing.tests;
+
+import com.github.navigator.testing.pageobjects.HomePage;
+import com.github.navigator.testing.pageobjects.LoginPage;
+import com.github.navigator.testing.support.BrowserSupport;
 import org.openqa.selenium.WebDriver;
-import PageObjects.*;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
